@@ -20,7 +20,7 @@ To use Vera devices in your installation, add the following to your configuratio
 
 ```yaml
 vera:
-  vera_controller_url: http://192.168.1.161:3480/
+  vera_controller_url: http://192.168.1.161/port_3480/
 ```
 
 Configuration variables:
@@ -41,7 +41,7 @@ You can find the Vera device id either via the advanced properties of the device
 
 ```yaml
 vera:
-  vera_controller_url: http://192.168.1.161:3480/
+  vera_controller_url: http://192.168.1.161/port_3480/
   # Optional to exclude devices - this is a list of vera device ids
   exclude: [ 13, 14, 16, 20, 23, 72, 73, 74, 75, 76, 77, 78, 88, 89, 99]
   # Optional to import switches as lights - this is a list of vera device ids
